@@ -1,6 +1,6 @@
 import Services from '@layouts/Services'
 import React from 'react'
-const services = () => {
+const Products = () => {
   return (
     <div>
         <h2>Services</h2>
@@ -8,4 +8,4 @@ const services = () => {
   )
 }
 
-export default services;
+export default Products;

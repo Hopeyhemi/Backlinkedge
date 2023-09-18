@@ -23,10 +23,6 @@
       "name": "Company",
       "menu": [
         {
-          "text": "Services",
-          "url": "/services"
-        },
-        {
           "text": "Quick Start",
           "url": "#"
         }

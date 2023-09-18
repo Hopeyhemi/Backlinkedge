@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Order } from "@layouts/components/Order";
 
-export const Services = ({feature}) => {
+export const ServicesList = ({feature}) => {
   return (
     <div>
          <section className="section bg-blue-500">

@@ -10,7 +10,7 @@ import "swiper/swiper.min.css";
 import { getListPage } from "../lib/contentParser";
 import { Order } from "@layouts/components/Order";
 import { About } from "@layouts/components/About";
-import { Services } from "@layouts/components/Services";
+import { ServicesList } from "@layouts/components/ServicesList";
 
 const Home = ({ frontmatter }) => {
   const { banner, feature, services, workflow, call_to_action } = frontmatter;
@@ -57,10 +57,10 @@ const Home = ({ frontmatter }) => {
       </section>
 
       {/* Our Services */}
-      <Services feature={feature} />
+      <ServicesList feature={feature} />
       
       <section className="section text-center mt-12 ">
-      <span className=" hover:cursor-pointer font-primary text-center bg-orange-500 p-6 rounded-3xl text-blue-800 text-6xl font-bold">Why choose us?</span>
+      <span className=" hover:cursor-pointer font-primary text-center bg-orange p-6 rounded-3xl text-blue-800 text-6xl font-bold">Why choose us?</span>
       </section>
 
       {/* services */}
