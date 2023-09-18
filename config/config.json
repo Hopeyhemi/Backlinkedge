@@ -1,0 +1,36 @@
+{
+  "site": {
+    "title": "Backlinkedge SEO Platform",
+    "base_url": "/",
+    "favicon": "/images/logo.png",
+    "logo": "/images/logo.png",
+    "logo_width": "200",
+    "logo_height": "48",
+    "logo_text": "Backlinkedge"
+  },
+
+  "settings": {
+    "pagination": 4,
+    "summary_length": 200,
+    "blog_folder": "blogs"
+  },
+
+  "nav_button": {
+    "enable": true,
+    "label": "Get Started",
+    "link": "/contact"
+  },
+
+  "params": {
+    "contact_form_action": "",
+    "tag_manager_id": "",
+    "footer_content": "Elevate. Dominate with Backlinkedge",
+    "copyright": "Designed and Developed By [Abiodun](https://www.linkedin.com/in/igbehinadun-abiodun-581588183/)"
+  },
+
+  "metadata": {
+    "meta_author": "Abiodun",
+    "meta_image": "",
+    "meta_description": "A SEO Platform for Backlink Building"
+  }
+}
