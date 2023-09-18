@@ -24,8 +24,8 @@ const Home = ({ frontmatter }) => {
           <div className="row text-center">
             <div className="mx-auto lg:col-12   lg:grid ">
               <div >
-              <h1 className=" hover:cursor-pointer font-primary text-blue-800 text-6xl font-bold">{banner.title}</h1>
-              <p className="hover:cursor-pointer my-4 text-2xl	text-black">{markdownify(banner.content)}</p>
+              <h1 className=" hover:cursor-pointer font-primary text-blue-800 md:text-6xl font-bold">{banner.title}</h1>
+              <p className="hover:cursor-pointer my-4 md:text-2xl	text-black">{markdownify(banner.content)}</p>
               <Order linker={banner} align="center"/>
               
               </div>
